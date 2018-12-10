@@ -79,4 +79,4 @@ p <- ggplot() +
        subtitle = "IRS Sources of Income Migration Data. Number of Exemptions. Douglas County, NE. 2015-2016",
        caption = "Author: Chris Goodman (@cbgoodman), Data: Internal Revenue Service SOI Migration Data")
 
-ggsave(plot=p, "douglas-irs-out.png", width=(3*4), height=(2*4), units="in", dpi="retina")
+ggsave(plot=p, "douglas-irs-out.png", width=(5*2), height=(4*2), units="in", dpi="retina")

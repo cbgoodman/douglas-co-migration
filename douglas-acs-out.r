@@ -81,4 +81,4 @@ p <- ggplot() +
        subtitle = "Out Migration for Douglas County, Nebraska. 2012-2016",
        caption = "Author: Chris Goodman (@cbgoodman), Data: U.S. Census Bureau American Community Survey")
 
-ggsave(plot=p, "douglas-acs-out.png", width=(3*4), height=(2*4), units="in", dpi="retina")
+ggsave(plot=p, "douglas-acs-out.png", width=(5*2), height=(4*2), units="in", dpi="retina")
