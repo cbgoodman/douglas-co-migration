@@ -13,7 +13,15 @@ There are a number of migration related Census products derived from two primary
 
 ![ACS Out Migration, Douglas County](douglas-acs-out.png)
 
+`douglas-acs-in.r` reads `douglas-acs-in.csv` to create the migration inflow map for Douglas County, NE seen below.
+
+![ACS In Migration, Douglas County](douglas-acs-in.png)
+
 ## Internal Revenue Service Sources of Income Migration Data
 The [IRS SOI Tax Stats Migration Data](https://www.irs.gov/statistics/soi-tax-stats-migration-data) is based on year-to-year changes in address from individual income tax returns. Due to data privacy regulations, a number of counties are not reported. The map below is based on the outflow data.`douglas-irs-out.r` reads `douglas-irs-out.csv` to create the migration outflow map for Douglas County, NE seen below.
 
 ![IRS Out Migration, Douglas County](douglas-irs-out.png)
+
+`douglas-irs-in.r` reads `douglas-irs-in.csv` to create the migration inflow map for Douglas County, NE seen below.
+
+![IRS In Migration, Douglas County](douglas-irs-in.png)
